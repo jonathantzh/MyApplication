@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ninth_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pg9">
+
+    <ImageView
+        android:id="@+id/fish"
+        android:src="@drawable/fish"
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="130dp" />
+
+    <ImageView
+        android:id="@+id/fishscales"
+        android:src="@drawable/scales"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="330dp"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:alpha="0"/>
+
+    <ImageView
+        android:id="@+id/scale1"
+        android:src="@drawable/scale1"
+        android:layout_width="359dp"
+        android:layout_height="165dp"
+        android:layout_alignBottom="@+id/fishscales"
+        android:layout_alignStart="@+id/fishscales"
+        android:layout_marginBottom="1dp"/>
+
+    <ImageView
+        android:id="@+id/scale3"
+        android:src="@drawable/scale3"
+        android:layout_width="359dp"
+        android:layout_height="170dp"
+        android:layout_alignTop="@+id/fishscales"
+        android:layout_alignStart="@+id/fishscales"
+        android:layout_marginTop="1dp"/>
+
+    <ImageView
+        android:id="@+id/scale2"
+        android:src="@drawable/scale2"
+        android:layout_width="279dp"
+        android:layout_height="138dp"
+        android:layout_alignTop="@+id/fishscales"
+        android:layout_alignStart="@+id/fishscales"
+        android:layout_marginTop="81dp"/>
+
+    <ImageView
+        android:id="@+id/next"
+        android:src="@drawable/paw"
+        android:layout_width="200dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="90dp"
+        android:layout_below="@+id/fishscales"
+        android:layout_toEndOf="@+id/fishscales"
+        android:layout_marginTop="17dp" />
+
+</RelativeLayout>

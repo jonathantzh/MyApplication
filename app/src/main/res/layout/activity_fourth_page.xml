@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pg5"
+    tools:context="com.touchtale.jon.prototype.FourthPage">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="400dp"
+        android:layout_height="400px"
+        android:background="@drawable/scales"
+        android:alpha='0'
+        android:layout_marginBottom="85dp"
+        android:layout_alignBottom="@+id/catstroke"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/catButton"
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:alpha='0'
+        android:layout_marginTop="54dp"
+        android:layout_alignTop="@+id/catstroke"
+        android:layout_alignStart="@+id/catstroke"/>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="700dp"
+        android:layout_height="50dp"
+        android:id="@+id/progressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/catstroke"
+        android:layout_width="650dp"
+        android:layout_height="400dp"
+        android:src="@drawable/catprestroke"
+        android:alpha='1'
+        android:layout_above="@+id/progressBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/paw"
+        android:alpha="0"
+        android:onClick="nextPage"
+        android:background="@drawable/paw"
+        android:layout_marginTop="224dp"
+        android:layout_alignTop="@+id/view"
+        android:layout_toEndOf="@+id/view"
+        android:layout_marginStart="36dp" />
+
+</RelativeLayout>

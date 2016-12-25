@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_time_sleep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.touchtale.jon.prototype.TimeSleep"
+    android:background="@drawable/pg16">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/progressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="600dp"
+        android:layout_height="800px"
+        android:background="@drawable/scales"
+        android:alpha='0'
+        android:layout_marginBottom="105dp"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/catButton"
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:alpha='0'
+        android:layout_alignBottom="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/paw"
+        android:alpha="0"
+        android:onClick="nextPage"
+        android:background="@drawable/paw"/>
+
+    <ImageView
+        android:id="@+id/catstroke"
+        android:layout_width="650dp"
+        android:layout_height="400dp"
+        android:src="@drawable/sleepprestroke"
+        android:alpha='1'
+        android:layout_above="@+id/progressBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp" />
+
+</RelativeLayout>

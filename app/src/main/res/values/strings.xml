@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TouchTale</string>
+    <string name="edit_message">What is your name?</string>
+    <string name="button_send">Click me to continue</string>
+</resources>

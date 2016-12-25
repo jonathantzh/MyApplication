@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.touchtale.jon.prototype">
+
+    <application
+        android:name="co.tanvas.haptics.service.app.HapticApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/cat1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.touchtale.jon.prototype.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.touchtale.jon.prototype.FirstPage" />
+        <activity android:name="com.touchtale.jon.prototype.SecondPage" />
+        <activity android:name="com.touchtale.jon.prototype.StrokingPage" />
+        <activity android:name="com.touchtale.jon.prototype.IntroductionPage" />
+        <activity android:name="com.touchtale.jon.prototype.ThirdPage" />
+        <activity android:name="com.touchtale.jon.prototype.SixthPage" />
+        <activity android:name="com.touchtale.jon.prototype.FourthPage" />
+        <activity android:name="com.touchtale.jon.prototype.SeventhPage" />
+        <activity android:name="com.touchtale.jon.prototype.EighthPage" />
+        <activity android:name="com.touchtale.jon.prototype.NinthPage" />
+        <activity android:name="com.touchtale.jon.prototype.TenthPage" />
+        <activity android:name="com.touchtale.jon.prototype.CutFish2" />
+        <activity android:name="com.touchtale.jon.prototype.CutFish4" />
+        <activity android:name="com.touchtale.jon.prototype.CutFish5" />
+        <activity android:name="com.touchtale.jon.prototype.CutFish6" />
+        <activity android:name="com.touchtale.jon.prototype.FeedCat" />
+        <activity android:name="com.touchtale.jon.prototype.FullHappy" />
+        <activity android:name="com.touchtale.jon.prototype.GettingLate" />
+        <activity android:name="com.touchtale.jon.prototype.TimeSleep" />
+        <activity android:name="com.touchtale.jon.prototype.ReadySleep" />
+        <activity android:name="com.touchtale.jon.prototype.TheEnd"></activity>
+    </application>
+
+</manifest>
